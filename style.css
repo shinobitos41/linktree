@@ -109,6 +109,9 @@ a > p {
 }
 
 @media screen and (max-width: 576px) {
+  body {
+    overflow-y: scroll;
+  }
   .container {
     max-width: 100%;
   }
